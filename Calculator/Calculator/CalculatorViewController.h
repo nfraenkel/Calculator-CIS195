@@ -11,5 +11,6 @@
 @interface CalculatorViewController : UIViewController
 
 @property (nonatomic, retain) IBOutlet UILabel *display;
+@property (nonatomic, retain) IBOutlet UILabel *operatorDisplay;
 
 @end
