@@ -14,9 +14,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="xv_@2X.png" translatesAutoresizingMaskIntoConstraints="NO" id="ts6-fO-iJq"/>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nn8-V2-baC">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="284" type="user" id="3ZV-lX-f3G"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -113,9 +110,6 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMX-ka-fWF">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="59" id="Suh-tI-9Yj"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -283,103 +277,88 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="sL1-iA-Cvn" firstAttribute="trailing" secondItem="Nyn-75-2Hj" secondAttribute="trailing" type="default" id="006-H3-SeI"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="eeT-ro-Ktf" secondAttribute="height" type="user" id="0SE-fM-sZq"/>
                             <constraint firstItem="Bb0-gi-om6" firstAttribute="centerX" secondItem="h7c-Hi-fF0" secondAttribute="centerX" type="default" id="0dh-T6-h2a"/>
-                            <constraint firstItem="eeT-ro-Ktf" firstAttribute="top" secondItem="3" secondAttribute="top" constant="106" type="user" id="1Ja-bP-1gf"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="Bb0-gi-om6" secondAttribute="height" type="user" id="1VB-6t-Lg1"/>
                             <constraint firstItem="bqa-UN-lii" firstAttribute="top" secondItem="nn8-V2-baC" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="1lH-Xb-onv"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="8Wd-kK-Jx5" secondAttribute="height" type="user" id="3Lj-l0-IMQ"/>
-                            <constraint firstItem="Fdy-KF-3OV" firstAttribute="top" secondItem="I2B-MV-Qkk" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="3dU-eZ-Z7h"/>
                             <constraint firstItem="8Wd-kK-Jx5" firstAttribute="width" secondItem="AEm-WR-oWQ" secondAttribute="width" type="user" id="4Aq-kK-bpX"/>
                             <constraint firstItem="AEm-WR-oWQ" firstAttribute="top" secondItem="8Wd-kK-Jx5" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="4EG-3Y-V3n"/>
                             <constraint firstItem="14z-up-FEg" firstAttribute="leading" secondItem="sL1-iA-Cvn" secondAttribute="leading" type="default" id="4ET-9P-5e0"/>
-                            <constraint firstItem="h7c-Hi-fF0" firstAttribute="leading" secondItem="4kP-3t-qEE" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="4F2-jS-Rtw"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="eeT-ro-Ktf" secondAttribute="height" type="user" id="4nD-th-zVU"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="sL1-iA-Cvn" secondAttribute="height" type="user" id="518-UV-GCE"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="leading" secondItem="QKN-AQ-JfJ" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" type="user" id="5id-4R-m2G"/>
                             <constraint firstItem="h7c-Hi-fF0" firstAttribute="trailing" secondItem="Bb0-gi-om6" secondAttribute="trailing" type="default" id="5jZ-jL-fVX"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="qtx-RF-MGg" secondAttribute="height" type="user" id="5zx-GR-LfM"/>
+                            <constraint firstItem="lDm-kk-8XX" firstAttribute="top" secondItem="Fdy-KF-3OV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5uk-iU-W9f"/>
                             <constraint firstItem="qtx-RF-MGg" firstAttribute="leading" secondItem="lDm-kk-8XX" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="73U-wb-OGi"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="Bb0-gi-om6" secondAttribute="height" type="user" id="77J-wk-ZRe"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="4kP-3t-qEE" secondAttribute="height" type="user" id="7DH-kP-Im6"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="NNt-ZW-QjG" secondAttribute="height" type="user" id="7tP-oQ-Afm"/>
-                            <constraint firstItem="8Wd-kK-Jx5" firstAttribute="height" secondItem="AEm-WR-oWQ" secondAttribute="height" type="user" id="8de-Kz-qJh"/>
                             <constraint firstItem="I2B-MV-Qkk" firstAttribute="leading" secondItem="eeT-ro-Ktf" secondAttribute="leading" type="default" id="9Ip-8J-OVc"/>
                             <constraint firstItem="Nyn-75-2Hj" firstAttribute="leading" secondItem="eeT-ro-Ktf" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="9oZ-w5-CSM"/>
                             <constraint firstItem="NNt-ZW-QjG" firstAttribute="baseline" secondItem="qtx-RF-MGg" secondAttribute="baseline" type="default" id="9tR-s1-0cw"/>
+                            <constraint firstItem="4kP-3t-qEE" firstAttribute="leading" secondItem="bqa-UN-lii" secondAttribute="leading" type="user" id="A52-RD-MoH"/>
                             <constraint firstItem="bqa-UN-lii" firstAttribute="centerX" secondItem="8Wd-kK-Jx5" secondAttribute="centerX" type="user" id="ADd-CI-zV8"/>
-                            <constraint firstItem="bMX-ka-fWF" firstAttribute="leading" secondItem="bqa-UN-lii" secondAttribute="leading" type="default" id="ATY-d3-Zb7"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="QKN-AQ-JfJ" secondAttribute="height" type="user" id="AFa-ZE-Fgo"/>
                             <constraint firstItem="QKN-AQ-JfJ" firstAttribute="leading" secondItem="14z-up-FEg" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="BFA-Na-M9d"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="Hgt-d5-21B" secondAttribute="height" type="user" id="BKB-Eo-dTC"/>
                             <constraint firstItem="h7c-Hi-fF0" firstAttribute="baseline" secondItem="4kP-3t-qEE" secondAttribute="baseline" type="default" id="Chu-iZ-2Fa"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="Bb0-gi-om6" secondAttribute="height" type="user" id="DpD-qf-YbR"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="I2B-MV-Qkk" secondAttribute="height" type="user" id="ERw-gQ-njh"/>
-                            <constraint firstItem="4kP-3t-qEE" firstAttribute="leading" secondItem="Nyn-75-2Hj" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" type="user" id="GeL-6m-MAc"/>
-                            <constraint firstItem="Fdy-KF-3OV" firstAttribute="leading" secondItem="lDm-kk-8XX" secondAttribute="leading" type="default" id="GiG-Vp-lx3"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="14z-up-FEg" secondAttribute="height" type="user" id="H0h-3v-iRm"/>
+                            <constraint firstItem="sL1-iA-Cvn" firstAttribute="leading" secondItem="I2B-MV-Qkk" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="FvV-5K-Lcx"/>
+                            <constraint firstItem="Fdy-KF-3OV" firstAttribute="leading" secondItem="lDm-kk-8XX" secondAttribute="leading" type="user" id="GiG-Vp-lx3"/>
                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="AEm-WR-oWQ" secondAttribute="bottom" constant="20" type="user" id="H1v-Oz-5XU"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="AEm-WR-oWQ" secondAttribute="height" type="user" id="Hho-3D-p8U"/>
-                            <constraint firstItem="I2B-MV-Qkk" firstAttribute="top" secondItem="eeT-ro-Ktf" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="ID7-hp-XAG"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="lDm-kk-8XX" secondAttribute="height" type="user" id="Hdx-Ha-VJ0"/>
                             <constraint firstItem="Bb0-gi-om6" firstAttribute="leading" secondItem="sLs-cG-dFq" secondAttribute="leading" type="default" id="J9A-38-099"/>
+                            <constraint firstItem="4kP-3t-qEE" firstAttribute="trailing" secondItem="bMX-ka-fWF" secondAttribute="trailing" type="default" id="Jqc-aA-AbQ"/>
                             <constraint firstItem="14z-up-FEg" firstAttribute="baseline" secondItem="Fdy-KF-3OV" secondAttribute="baseline" type="default" id="JzU-PF-sxd"/>
                             <constraint firstItem="Nyn-75-2Hj" firstAttribute="baseline" secondItem="eeT-ro-Ktf" secondAttribute="baseline" type="default" id="K21-NE-DE9"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="Nyn-75-2Hj" secondAttribute="height" type="user" id="KSv-Wx-VIe"/>
                             <constraint firstItem="nn8-V2-baC" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="Kkm-6Q-ITQ"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="bMX-ka-fWF" secondAttribute="height" type="user" id="L95-2C-aUr"/>
                             <constraint firstItem="ts6-fO-iJq" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="Mww-iJ-f9i"/>
+                            <constraint firstItem="I2B-MV-Qkk" firstAttribute="top" secondItem="eeT-ro-Ktf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Nec-XG-tBG"/>
                             <constraint firstItem="I2B-MV-Qkk" firstAttribute="leading" secondItem="Fdy-KF-3OV" secondAttribute="leading" type="default" id="No8-PI-VBr"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="Hgt-d5-21B" secondAttribute="height" type="user" id="OEB-X4-cHE"/>
+                            <constraint firstItem="4kP-3t-qEE" firstAttribute="leading" secondItem="Nyn-75-2Hj" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Nv9-VS-baZ"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="Hgt-d5-21B" secondAttribute="height" type="user" id="Oc9-nK-gRK"/>
                             <constraint firstItem="sL1-iA-Cvn" firstAttribute="baseline" secondItem="bMX-ka-fWF" secondAttribute="baseline" type="default" id="PIR-IR-Pde"/>
                             <constraint firstAttribute="trailing" secondItem="ts6-fO-iJq" secondAttribute="trailing" type="user" id="Pxu-UV-hJi"/>
                             <constraint firstItem="NNt-ZW-QjG" firstAttribute="baseline" secondItem="Hgt-d5-21B" secondAttribute="baseline" type="default" id="QMV-gq-ZvY"/>
-                            <constraint firstItem="Bb0-gi-om6" firstAttribute="leading" secondItem="bMX-ka-fWF" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" type="user" id="Qh1-Gg-e19"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="h7c-Hi-fF0" secondAttribute="height" type="user" id="Ry5-lY-6q4"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="8Wd-kK-Jx5" secondAttribute="height" type="user" id="S3I-y5-R49"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="NNt-ZW-QjG" secondAttribute="height" type="user" id="Snp-WV-959"/>
                             <constraint firstItem="sLs-cG-dFq" firstAttribute="leading" secondItem="Hgt-d5-21B" secondAttribute="leading" type="default" id="TLi-Lj-INQ"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="4kP-3t-qEE" secondAttribute="height" type="user" id="TRc-om-ha4"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="NNt-ZW-QjG" secondAttribute="height" type="user" id="TfF-jm-6If"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="Fdy-KF-3OV" secondAttribute="height" type="user" id="Tfl-Ic-ZI6"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="14z-up-FEg" secondAttribute="height" type="user" id="VPL-wi-cZc"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="lDm-kk-8XX" secondAttribute="height" type="user" id="VXG-Bo-HJe"/>
-                            <constraint firstItem="lDm-kk-8XX" firstAttribute="leading" secondItem="8Wd-kK-Jx5" secondAttribute="leading" type="default" id="X1C-25-fLM"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="eeT-ro-Ktf" secondAttribute="height" type="user" id="UCM-SJ-udu"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="bMX-ka-fWF" secondAttribute="height" type="user" id="WaW-RN-uJU"/>
+                            <constraint firstItem="lDm-kk-8XX" firstAttribute="leading" secondItem="8Wd-kK-Jx5" secondAttribute="leading" type="user" id="X1C-25-fLM"/>
                             <constraint firstItem="14z-up-FEg" firstAttribute="baseline" secondItem="QKN-AQ-JfJ" secondAttribute="baseline" type="default" id="Xz4-t8-ig8"/>
                             <constraint firstItem="sL1-iA-Cvn" firstAttribute="baseline" secondItem="I2B-MV-Qkk" secondAttribute="baseline" type="default" id="Yvg-ey-6F3"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="QKN-AQ-JfJ" secondAttribute="height" type="user" id="ZLf-gn-m5q"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="Fdy-KF-3OV" secondAttribute="height" type="user" id="aAv-5E-nvO"/>
                             <constraint firstItem="nn8-V2-baC" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3" secondAttribute="top" constant="20" type="user" id="aNI-iu-X1x"/>
                             <constraint firstItem="bMX-ka-fWF" firstAttribute="leading" secondItem="sL1-iA-Cvn" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="ai3-12-PGk"/>
+                            <constraint firstItem="eeT-ro-Ktf" firstAttribute="top" secondItem="3" secondAttribute="top" constant="106" id="arg-4q-Xhv"/>
                             <constraint firstItem="Nyn-75-2Hj" firstAttribute="leading" secondItem="sL1-iA-Cvn" secondAttribute="leading" type="default" id="avB-sw-YmR"/>
                             <constraint firstItem="Hgt-d5-21B" firstAttribute="trailing" secondItem="8Wd-kK-Jx5" secondAttribute="trailing" type="user" id="b2V-ja-utY"/>
+                            <constraint firstItem="8Wd-kK-Jx5" firstAttribute="top" secondItem="lDm-kk-8XX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bda-Ym-zFx"/>
                             <constraint firstItem="bMX-ka-fWF" firstAttribute="baseline" secondItem="Bb0-gi-om6" secondAttribute="baseline" type="default" id="bgG-eK-oGc"/>
                             <constraint firstItem="EMH-Sw-a2d" firstAttribute="top" secondItem="nn8-V2-baC" secondAttribute="bottom" constant="5" type="user" id="bl6-Nu-ewB"/>
                             <constraint firstItem="ts6-fO-iJq" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="user" id="bqK-54-c3e"/>
-                            <constraint firstItem="NNt-ZW-QjG" firstAttribute="leading" secondItem="qtx-RF-MGg" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" type="user" id="c7E-9h-ArS"/>
                             <constraint firstItem="NNt-ZW-QjG" firstAttribute="trailing" secondItem="QKN-AQ-JfJ" secondAttribute="trailing" type="default" id="cfz-6Y-pLm"/>
                             <constraint firstItem="4kP-3t-qEE" firstAttribute="baseline" secondItem="Nyn-75-2Hj" secondAttribute="baseline" type="default" id="coT-t6-RmQ"/>
-                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="leading" secondItem="8Wd-kK-Jx5" secondAttribute="leading" type="default" id="dEu-hL-wYn"/>
-                            <constraint firstItem="sL1-iA-Cvn" firstAttribute="leading" secondItem="I2B-MV-Qkk" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" type="user" id="eAW-FG-j3n"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="qtx-RF-MGg" secondAttribute="height" type="user" id="f4x-RJ-ash"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="leading" secondItem="8Wd-kK-Jx5" secondAttribute="leading" type="user" id="dEu-hL-wYn"/>
+                            <constraint firstItem="NNt-ZW-QjG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qtx-RF-MGg" secondAttribute="trailing" constant="8" symbolic="YES" type="user" id="dJ3-EY-uwa"/>
+                            <constraint firstAttribute="trailing" secondItem="nn8-V2-baC" secondAttribute="trailing" constant="16" type="user" id="e9i-oT-45p"/>
+                            <constraint firstAttribute="trailing" secondItem="8Wd-kK-Jx5" secondAttribute="trailing" constant="26" type="user" id="efN-qV-JtH"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="14z-up-FEg" secondAttribute="height" type="user" id="fEG-Ch-ubH"/>
                             <constraint firstItem="sLs-cG-dFq" firstAttribute="baseline" secondItem="QKN-AQ-JfJ" secondAttribute="baseline" type="default" id="fTC-Ot-Wz5"/>
                             <constraint firstItem="sLs-cG-dFq" firstAttribute="trailing" secondItem="Hgt-d5-21B" secondAttribute="trailing" type="default" id="fw5-BB-82k"/>
+                            <constraint firstItem="4kP-3t-qEE" firstAttribute="leading" secondItem="bMX-ka-fWF" secondAttribute="leading" type="default" id="g9U-w4-7OI"/>
                             <constraint firstItem="ts6-fO-iJq" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="gGZ-UR-ZWv"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="Nyn-75-2Hj" secondAttribute="height" type="user" id="h8P-l3-iM4"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="lDm-kk-8XX" secondAttribute="height" type="user" id="if6-fE-8GJ"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="I2B-MV-Qkk" secondAttribute="height" type="user" id="jka-oq-N4f"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="h7c-Hi-fF0" secondAttribute="height" type="user" id="kDA-Vm-49D"/>
-                            <constraint firstItem="8Wd-kK-Jx5" firstAttribute="top" secondItem="lDm-kk-8XX" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="l73-rn-6b7"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="h7c-Hi-fF0" secondAttribute="height" type="user" id="hzb-oC-uhr"/>
                             <constraint firstItem="qtx-RF-MGg" firstAttribute="baseline" secondItem="lDm-kk-8XX" secondAttribute="baseline" type="default" id="lS2-Qv-RoD"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="QKN-AQ-JfJ" secondAttribute="height" type="user" id="mzq-VU-4be"/>
-                            <constraint firstItem="lDm-kk-8XX" firstAttribute="top" secondItem="Fdy-KF-3OV" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="o5y-Kb-PyD"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="Nyn-75-2Hj" secondAttribute="height" type="user" id="moE-uz-Oby"/>
                             <constraint firstItem="nn8-V2-baC" firstAttribute="top" secondItem="3" secondAttribute="top" constant="33" id="oCH-jJ-BQ6"/>
-                            <constraint firstItem="8Wd-kK-Jx5" firstAttribute="centerX" secondItem="ts6-fO-iJq" secondAttribute="centerX" type="default" id="oGD-uf-hhp"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="4kP-3t-qEE" secondAttribute="height" type="user" id="pUN-vj-aJc"/>
                             <constraint firstItem="I2B-MV-Qkk" firstAttribute="width" secondItem="lDm-kk-8XX" secondAttribute="width" type="user" id="pUz-uk-lYL"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="width" secondItem="Bb0-gi-om6" secondAttribute="width" type="user" id="rxW-4w-jpV"/>
-                            <constraint firstItem="Hgt-d5-21B" firstAttribute="leading" secondItem="NNt-ZW-QjG" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" type="user" id="seo-QC-OPo"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="centerX" secondItem="ts6-fO-iJq" secondAttribute="centerX" type="user" id="pa0-hs-cgg"/>
+                            <constraint firstItem="NNt-ZW-QjG" firstAttribute="leading" secondItem="qtx-RF-MGg" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="pzw-Ku-AW3"/>
+                            <constraint firstItem="14z-up-FEg" firstAttribute="leading" secondItem="Fdy-KF-3OV" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="qRn-1f-lx7"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="sL1-iA-Cvn" secondAttribute="height" type="user" id="ryD-tg-0f8"/>
                             <constraint firstItem="QKN-AQ-JfJ" firstAttribute="trailing" secondItem="bMX-ka-fWF" secondAttribute="trailing" type="default" id="tWB-Er-vgn"/>
                             <constraint firstItem="bMX-ka-fWF" firstAttribute="leading" secondItem="QKN-AQ-JfJ" secondAttribute="leading" type="default" id="tej-4c-M1i"/>
                             <constraint firstItem="NNt-ZW-QjG" firstAttribute="leading" secondItem="QKN-AQ-JfJ" secondAttribute="leading" type="default" id="tir-fI-yoq"/>
-                            <constraint firstItem="14z-up-FEg" firstAttribute="leading" secondItem="Fdy-KF-3OV" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" type="user" id="u0b-5Q-UhD"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="bMX-ka-fWF" secondAttribute="height" type="user" id="vtj-zQ-QGR"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="sL1-iA-Cvn" secondAttribute="height" type="user" id="wIP-8d-0TR"/>
-                            <constraint firstItem="sLs-cG-dFq" firstAttribute="height" secondItem="Fdy-KF-3OV" secondAttribute="height" type="user" id="yrz-hZ-wyk"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="sLs-cG-dFq" secondAttribute="height" type="user" id="vf8-aW-D9s"/>
+                            <constraint firstItem="8Wd-kK-Jx5" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="26" type="user" id="vm3-yA-SUK"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="I2B-MV-Qkk" secondAttribute="height" type="user" id="w6N-F1-Q5n"/>
+                            <constraint firstItem="AEm-WR-oWQ" firstAttribute="height" secondItem="qtx-RF-MGg" secondAttribute="height" type="user" id="w6e-Qg-T4S"/>
+                            <constraint firstItem="Fdy-KF-3OV" firstAttribute="top" secondItem="I2B-MV-Qkk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="yH7-4N-NRK"/>
+                            <constraint firstItem="sLs-cG-dFq" firstAttribute="trailing" secondItem="Bb0-gi-om6" secondAttribute="trailing" type="default" id="yZZ-Su-Sa1"/>
                             <constraint firstItem="EMH-Sw-a2d" firstAttribute="centerX" secondItem="bqa-UN-lii" secondAttribute="centerX" type="default" id="zbb-XA-Tur"/>
                         </constraints>
                     </view>
@@ -400,11 +379,6 @@
         <class className="CalculatorViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CalculatorViewController.h"/>
             <relationships>
-                <relationship kind="action" name="backSpacePressed:" candidateClass="UIButton"/>
-                <relationship kind="action" name="clearAllPressed:" candidateClass="UIButton"/>
-                <relationship kind="action" name="dotPressed:" candidateClass="UIButton"/>
-                <relationship kind="action" name="numberPressed:" candidateClass="UIButton"/>
-                <relationship kind="action" name="operatorPressed:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="display" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="operatorDisplay" candidateClass="UILabel"/>
             </relationships>
